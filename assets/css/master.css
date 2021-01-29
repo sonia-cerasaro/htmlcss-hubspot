@@ -21,19 +21,23 @@ nav {
 
 section.nav_one {
   width: 100%;
-  background-color: lightgrey;
+  background-color: #eaf0f6;
+  position: fixed;
+  z-index: 1;
 }
 
 section.nav_two {
   width: 100%;
   background-color: #fff;
+  border-top: grey solid 1px;
+  margin-top: 58px;
 }
 
 .nav_one_container {
   width: 80%;
   height: 60px;
   margin: auto;
-  background-color: white;
+
   position: relative;
 }
 
@@ -66,16 +70,16 @@ li {
 
 .ul_right {
   position: absolute;
-  top: 15px;
+  top: 17px;
   right: 0;
   bottom: 0;
 }
 
 .button {
   color: #fff;
-  border: red solid 1px;
+  border: #ff7a59 solid 1px;
   border-radius: 5px;
-  background-color: red;
+  background-color: #ff7a59;
   font-size: small;
   padding: 6px 8px;
 }
@@ -88,17 +92,27 @@ li {
 }
 
 i.fas.fa-search {
-  color: blue;
+  color: #60baaf;
 }
 
 /* HR */
 
- #nav_hr{
-  border: grey solid 1px;
+ #nav_hr {
+  border: lightgrey solid 1px;
 }
 
 
 /* SECOND NAV SECTION LEFT  */
+
+.logo_nav {
+  width: 100px;
+  margin-top: 15px;
+}
+
+
+.ul_right.second_nav > li {
+  margin-left: 10px;
+}
 
 
 
