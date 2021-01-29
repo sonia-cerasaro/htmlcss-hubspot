@@ -10,7 +10,12 @@
 header {
   width: 100vw;
   height: 100vh;
-  background-color: lightblue;
+  background-color: #fff2ee;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover 200px;
+  background-position: bottom;
+  bottom: 0;
 }
 
 nav {
@@ -37,7 +42,6 @@ section.nav_two {
   width: 80%;
   height: 60px;
   margin: auto;
-
   position: relative;
 }
 
@@ -101,7 +105,6 @@ i.fas.fa-search {
   border: lightgrey solid 1px;
 }
 
-
 /* SECOND NAV SECTION LEFT  */
 
 .logo_nav {
@@ -109,10 +112,45 @@ i.fas.fa-search {
   margin-top: 15px;
 }
 
-
 .ul_right.second_nav > li {
   margin-left: 10px;
 }
+
+/* <!-- JAMBO CONTAINER --> */
+
+.jambo_layout_container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.jambo_text_container {
+  width: 50%;
+  height: 60%;
+}
+
+h1 {
+  padding-top: 90px;
+  font-size: 40px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: small;
+}
+
+.p_add {
+  font-size: x-small;
+}
+
+.button.big {
+  padding: 10px 20px;
+  font-size: x-small;
+}
+
+
 
 
 
@@ -122,5 +160,5 @@ i.fas.fa-search {
 .prova {
   width: 100%;
   height: 200px;
-  background-color: red;
+  background-color: #eaf0f6;
 }
