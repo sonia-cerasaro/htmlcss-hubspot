@@ -406,9 +406,53 @@ i.fas.fa-plus {
 
 /* <!-- MAIN FOURTH SECTION  --> */
 
-
 section.smiling_lady_img {
   width: 100vw;
   height: 80vh;
-  background-color: lightblue;
-} */
+  background-color: #fff;
+}
+
+.row.first {
+  width: 100%;
+}
+
+.col-.amount {
+  width: 40%;
+  height: 250px;
+}
+
+.amount_container {
+  height: 250px;
+  margin-left: 60px;
+}
+
+#number {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.col-.brand {
+  width: 50%;
+  height: 250px;
+  margin-left: 60px;
+}
+
+.brand_container {
+  width: calc(100% / 4);
+  height: 50%;
+  float: left;
+}
+
+img.brand {
+  width: 100px;
+  margin-top: 55px;
+}
+
+/* LADY SECTION */
+
+.row.second {
+  width: 100%;
+  /* height: 50%;   */
+  background-color: orange;
+}
