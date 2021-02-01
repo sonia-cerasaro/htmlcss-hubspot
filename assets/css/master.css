@@ -5,10 +5,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* UTILITY */
-
-
-
 /* HEADER */
 
 header {
@@ -102,10 +98,6 @@ li {
 i.fas.fa-search {
   color: #60baaf;
 }
-
-/* HR */
-
-
 
 /* SECOND NAV SECTION LEFT  */
 
@@ -334,7 +326,6 @@ i.fas.fa-check-circle {
   margin: auto;
 }
 
-
 h4.popolar_feature.hub_title {
   text-align: center;
   margin: 30px 0;
@@ -363,6 +354,7 @@ ul.vertical_list > li {
   width: 100%;
   height: 250px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .section_learn_grow * {
@@ -370,3 +362,53 @@ ul.vertical_list > li {
 }
 
 /* TABLE */
+
+.row.table {
+  width: 100%;
+}
+
+.col-.table {
+  width: calc(100% / 4);
+  height: 220px;
+  text-align: center;
+}
+
+.col-.table.border {
+  border-bottom: #fff solid 1px;
+}
+
+.col-.table.middle {
+  border-left: #fff solid 1px;
+}
+
+.plus {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 25px 0;
+  position: relative;
+  left: 10px;
+}
+
+.logo_table {
+  margin-top: 20px;
+}
+
+i.fas.fa-plus {
+  font-size: 15px;
+  vertical-align: middle;
+  position: relative;
+  left: -10px;
+}
+
+.note {
+  font-size: 11px;
+}
+
+/* <!-- MAIN FOURTH SECTION  --> */
+
+
+section.smiling_lady_img {
+  width: 100vw;
+  height: 80vh;
+  background-color: lightblue;
+} */
