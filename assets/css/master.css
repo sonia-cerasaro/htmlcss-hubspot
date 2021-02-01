@@ -138,6 +138,7 @@ h1 {
 p {
   margin-top: 30px;
   margin-bottom: 30px;
+  line-height: 1.8;
   font-size: small;
 }
 
@@ -150,7 +151,7 @@ p {
   font-size: x-small;
 }
 
-/* MAIN */
+/* MAIN FIRST SECTION */
 
 main {
   width: 100vw;
@@ -158,9 +159,86 @@ main {
   background-color: #eaf0f6;
 }
 
-.big_container_first_section {
+.big_container {
   width: 80%;
   height: 100%;
   margin: auto;
-  background-color: #11abc2;
+}
+
+.main_cube_container {
+  width: 100%;
+  height: 50%;
+  padding-top: 60px;
+}
+
+.cube_container {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+#cube {
+  width: 200px;
+  margin-top: 35px;
+}
+
+.p_container {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+
+/* MAIN SECOND SECTION */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class^=col-] {
+ float: left;
+ padding: 0 15px;
+}
+
+img#book {
+  width: 180px;
+  position: absolute;
+  right: 15%;
+  top: 28%;
+
+}
+
+.button.big.book {
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+}
+
+.row.free_hub_container {
+  width: 100%;
+  height: 50%;
+  border: lightgrey solid 1px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.col-.free_hub20 {
+  width: 30%;
+  height: 100%;
+  background-color: orange;
+  position: relative;
+}
+
+.col-.free_hub80 {
+  width: 70%;
+  background-color: blue;
 }
