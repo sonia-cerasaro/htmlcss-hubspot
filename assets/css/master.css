@@ -493,6 +493,7 @@ footer {
   width: 100vw;
   height: 80vh;
   background-color: #2d3e50;
+  color:#F0F8FF;
 }
 
 .col-.foot {
@@ -501,7 +502,6 @@ footer {
 }
 
 ul.last_list > li {
-  color: lightgrey;
   display: block;
   font-size: small;
   padding: 10px 0;
@@ -520,13 +520,14 @@ button.button.last {
   background-color: lightgrey;
 }
 
-
-
-
-
-
+ul.social_list li > i  {
+  margin-top: 10px;
+  margin-right: 25px;
+  font-size: 15px;
+}
 
 /* FOOTER SECOND ROW */
+
 .row.footer_second {
   width: 100%;
   height: 260px;
