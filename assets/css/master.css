@@ -150,14 +150,7 @@ main > .background_container {
   width: 100vw;
   height: 100vh;
   background-color: #eaf0f6;
-
 }
-
-/* main {
-  width: 100vw;
-  height: 100vh;
-  background-color: #eaf0f6;
-} */
 
 .big_container {
   width: 80%;
@@ -230,8 +223,8 @@ h3 {
 .row.free_hub_container {
   width: 100%;
   height: 45%;
-  border: lightgrey solid 1px;
-  border-radius: 4px;
+  border: rgba(173, 187, 230, 0.4) solid 2px;
+  border-radius: 5px;
   background-color: #fff;
 }
 
@@ -294,7 +287,7 @@ i.fas.fa-check-circle {
 
 section.section_main {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-color: #eaf0f6;
 }
 
@@ -304,7 +297,7 @@ section.section_main {
   width: calc(75vw / 3);
   height: 740px;
   background-color: #fff;
-  border: lightgrey solid 1px;
+  border: rgba(173, 187, 230, 0.4) solid 2px;
   border-radius: 4px;
 }
 
@@ -353,7 +346,7 @@ ul.vertical_list > li {
 
 section.section_learn_grow {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
@@ -510,6 +503,7 @@ ul.last_list > li {
 ul.last_list > :first-child {
   color: #fff;
   font-weight: bold;
+  font-size: 15px;
   padding: 20px 0;
   margin-top: 30px;
 }
@@ -517,10 +511,10 @@ ul.last_list > :first-child {
 button.button.last {
   color: #2d3e50;
   border: #fff solid 1px;
-  background-color: lightgrey;
+  background-color: #DCDCDC;
 }
 
-ul.social_list li > i  {
+ul.social_list li > i {
   margin-top: 10px;
   margin-right: 25px;
   font-size: 15px;
@@ -530,6 +524,48 @@ ul.social_list li > i  {
 
 .row.footer_second {
   width: 100%;
-  height: 260px;
-  background-color: yellow;
+}
+
+div.col-.languages_list {
+  width: 100%;
+  border-bottom: #F0F8FF solid 1px;
+}
+
+.container_languagesList {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  margin-top: 45px;
+}
+
+ul.languages_list > li {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+/* LAST CONTAINER */
+
+.col-.foot_last_container {
+  width: 50%;
+}
+
+.logo_container {
+  margin-top: 70px;
+}
+
+.col-.foot_last_container_two {
+  width: 50%;
+  height: 200px;
+  position: relative;
+}
+
+.policy_container > span {
+  padding-left: 15px;
+}
+
+.col-.foot_last_container_two > .policy_container {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
 }
