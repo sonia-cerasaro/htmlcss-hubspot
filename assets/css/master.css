@@ -487,6 +487,7 @@ footer {
   height: 80vh;
   background-color: #2d3e50;
   color:#F0F8FF;
+  font-size: 15px;
 }
 
 .col-.foot {
@@ -517,7 +518,6 @@ button.button.last {
 ul.social_list li > i {
   margin-top: 10px;
   margin-right: 25px;
-  font-size: 15px;
 }
 
 /* FOOTER SECOND ROW */
