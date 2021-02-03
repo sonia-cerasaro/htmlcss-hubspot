@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Noto Serif SC', serif; */
 }
 
 /* HEADER */
@@ -20,7 +21,7 @@ header {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 nav {
@@ -38,7 +39,7 @@ section.nav_one {
 section.nav_two {
   width: 100%;
   background-color: #fff;
-  border-top: grey solid 1px;
+  border-top: #A9A9A9 solid 1px;
   margin-top: 58px;
 }
 
@@ -93,7 +94,6 @@ li {
 }
 
 .button.white {
-  color: red;
   background-color: #fff;
   margin-left: 10px;
   margin-right: 10px;
@@ -264,7 +264,7 @@ h4.popolar_feature {
 }
 
 hr.popolar_feature {
-  border: black solid 1px;
+  border: #000 solid 1px;
   width: 350px;
   display: inline-block;
   vertical-align: middle;
@@ -313,7 +313,7 @@ section.section_main {
 .mark_up_section {
   width: 90%;
   height: 60%;
-  border-bottom: black solid 1px;
+  border-bottom: #000 solid 1px;
   margin: auto;
   text-align: center;
   padding-top: 40px;
@@ -362,7 +362,7 @@ section.section_learn_grow {
   margin-top: 30px;
 }
 
-.section_learn_grow * {
+.section_learn_grow {
   color: #fff;
 }
 
